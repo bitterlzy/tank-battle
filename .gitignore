@@ -1,0 +1,39 @@
+# ---- Maven / Java build output ----
+target/
+build/
+out/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+
+# ---- IDE ----
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.project
+.classpath
+.settings/
+.factorypath
+nbproject/
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# ---- Logs / temp ----
+*.log
+logs/
+*.tmp
+*.bak
+*~
+
+# ---- Local config overrides ----
+src/main/config/local.properties
+src/main/resources/application-local.properties
